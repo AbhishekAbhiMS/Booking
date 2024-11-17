@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import TaskItem from './components/TaskItem';
-import SearchBar from './components/SearchBar';
+import TaskItem from './TaskItem';
+import SearchBar from './SearchBar';
 import { saveTasksToLocalStorage, getTasksFromLocalStorage } from './utils/localStorage';
 
 interface Task {
